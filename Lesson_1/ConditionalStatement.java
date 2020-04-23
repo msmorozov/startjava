@@ -5,7 +5,7 @@ public class ConditionalStatement
 		int age = 21;
 		String men = "выМужскогоПола";
 		String woman = "выНеМужскогоПола";
-		int high = 180;
+		int high = 1.80;
 		String your_name = "M";
 
 		if (age > 20) {
@@ -17,10 +17,10 @@ public class ConditionalStatement
 		if (woman == "выНеМужскогоПола") {
 			System.out.println("Ты Женщина!");
 		}
-		if (high <= 180) {
+		if (high <= 1.80) {
 			System.out.println("У тебя средний рост");
 		} 
-			else if (high >= 180) {
+			else if (high >= 1.80) {
 			System.out.println("Жованный крот, что там за облаками?");
 			}
 		if (your_name == "M") {
